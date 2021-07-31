@@ -4,7 +4,7 @@ namespace Code_Day_1
 {
     namespace question1
     { 
-
+            
         class Program
         {
             public static void question1()
@@ -103,9 +103,17 @@ namespace Code_Day_1
         {
             static void Main(string[] args)
             {
-            question1.Program.question1();
-            question2.program.question2();
-            question3.program.question3();
+            //question1.Program.question1();
+            //question2.program.question2();
+            //question3.program.question3();
+
+            Console.WriteLine(null ?? "12");
+
+
+            foreach (char c in "I Am Good")
+            {
+                Console.WriteLine(c);
+            }
             }
         }
 }
